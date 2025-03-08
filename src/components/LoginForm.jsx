@@ -19,8 +19,6 @@ function LoginForm() {
         if (e.target.name === "username"){
             setUsername(e.target.value)
         }
-
-
     }
 
 

@@ -4,6 +4,9 @@ import Counter from "./components/Counter.jsx";
 import SayHello from "./components/SayHello.jsx";
 import UserInfo from "./components/UserInfo.jsx";
 import LoginForm from "./components/LoginForm.jsx";
+import Fruits from "./components/Fruits.jsx";
+import CityForm from "./components/CityForm.jsx";
+import User from "./components/users/User.jsx";
 
 const  App = ()=> {
 
@@ -42,7 +45,11 @@ const  App = ()=> {
 
 
 
-          <LoginForm/>
+    {/*      <LoginForm/>*/}
+
+     {/*     <CityForm/>*/}
+
+          <User/>
 
       </>
   )
